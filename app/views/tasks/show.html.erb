@@ -1,0 +1,3 @@
+<%= tag.h1 @task.title %>
+<p><%= @task.completed ? "[X]" : "[ ]" %> <%= @task.details %></p>
+<%= link_to "Go back", tasks_path %>
